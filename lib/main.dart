@@ -78,7 +78,8 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
             // Placeholders for displaying the weather data.
             Text('City: $_displayedCity', style: TextStyle(fontSize: 18)),
             Text('Temperature: $_temperature', style: TextStyle(fontSize: 18)),
-            Text('Condition: $_condition', style: TextStyle(fontSize: 18)),
+            Text('Current Weather Condition: $_condition',
+                style: TextStyle(fontSize: 18)),
           ],
         ),
       ),
